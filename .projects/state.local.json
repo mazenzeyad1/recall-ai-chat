@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-09-17T16:36:28.584Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1UGiGWCLctCHYETZ",
+    "projectId": "project_61VQ6FpGsfyqFysiN16VQ6DtKyA85BHiwKvzbB2bA9Xc",
+    "projectName": "hacation dev fort"
+  },
+  "providers": {
+    "openrouter": {
+      "accountRequestId": "facctrq_61VQ6HwWTlqHzoN1N16VQ6DtKyA85BHiwKvzbB2bA02C",
+      "configuration": {},
+      "linkedAt": "2026-09-17T16:38:41.313Z",
+      "providerId": "prvdr_61URImmFACEuDHEx651IO",
+      "providerName": "OpenRouter",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-17T16:38:41.313Z",
+      "status": "complete"
+    },
+    "supabase": {
+      "accountRequestId": "facctrq_61VQ6IT2Omojgseka16VQ6DtKyA85BHiwKvzbB2bATkm",
+      "configuration": {},
+      "linkedAt": "2026-09-17T16:39:26.651Z",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-17T16:39:26.651Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "chatdb": {
+      "configuration": {
+        "name": "hackathon-chat",
+        "region": "americas"
+      },
+      "createdAt": "2026-09-17T16:40:54.773Z",
+      "lastRevealedAt": "2026-09-17T16:40:55.038Z",
+      "lastStatus": "complete",
+      "name": "chatdb",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VQ6JmdC7m2KZ9GX16VQ6DtKyA85BHiwKvzbB2bAMe8",
+      "serviceId": "project"
+    },
+    "openrouter-api": {
+      "configuration": {},
+      "createdAt": "2026-09-17T16:38:51.517Z",
+      "lastRevealedAt": "2026-09-17T16:38:52.125Z",
+      "lastStatus": "complete",
+      "name": "openrouter-api",
+      "providerId": "prvdr_61URImmFACEuDHEx651IO",
+      "providerName": "OpenRouter",
+      "resourceId": "fres_61VQ6I5SbWCG4OQ6y16VQ6DtKyA85BHiwKvzbB2bAHEW",
+      "serviceId": "api"
+    },
+    "openrouter-plan": {
+      "configuration": {},
+      "createdAt": "2026-09-17T16:38:45.231Z",
+      "lastRevealedAt": "2026-09-17T16:38:45.462Z",
+      "lastStatus": "complete",
+      "name": "openrouter-plan",
+      "providerId": "prvdr_61URImmFACEuDHEx651IO",
+      "providerName": "OpenRouter",
+      "resourceId": "fres_61VQ6HymDg39YALQ616VQ6DtKyA85BHiwKvzbB2bADfE",
+      "serviceId": "free"
+    },
+    "supabase-plan": {
+      "configuration": {},
+      "createdAt": "2026-09-17T16:39:52.128Z",
+      "lastRevealedAt": "2026-09-17T16:39:52.378Z",
+      "lastStatus": "complete",
+      "name": "supabase-plan",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VQ6IixChyhAcMNY16VQ6DtKyA85BHiwKvzbB2bAJ1U",
+      "serviceId": "free"
+    }
+  }
+}

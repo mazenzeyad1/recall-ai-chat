@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Keep the chat scroller from showing a bright scrollbar on dark chrome. */
+* {
+  scrollbar-color: #3f3f46 transparent;
+  scrollbar-width: thin;
+}
+
+@keyframes pulse-dot {
+  0%, 80%, 100% { opacity: 0.25; }
+  40% { opacity: 1; }
+}
+
+.dot {
+  animation: pulse-dot 1.4s infinite ease-in-out both;
+}
+.dot:nth-child(2) { animation-delay: 0.16s; }
+.dot:nth-child(3) { animation-delay: 0.32s; }
