@@ -28,6 +28,16 @@
       "redirectUrl": null,
       "requestedAt": "2026-09-17T16:39:26.651Z",
       "status": "complete"
+    },
+    "vercel": {
+      "accountRequestId": "facctrq_61VQ6dapH89vYZiFX16VQ6DtKyA85BHiwKvzbB2bALSi",
+      "configuration": {},
+      "linkedAt": "2026-09-17T17:01:05.974Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-17T17:01:05.973Z",
+      "status": "complete"
     }
   },
   "resources": {
@@ -77,6 +87,30 @@
       "providerName": "Supabase",
       "resourceId": "fres_61VQ6IixChyhAcMNY16VQ6DtKyA85BHiwKvzbB2bAJ1U",
       "serviceId": "free"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-09-17T17:01:08.512Z",
+      "lastRevealedAt": "2026-09-17T17:01:08.851Z",
+      "lastStatus": "complete",
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VQ6df45YiJpmlfm16VQ6DtKyA85BHiwKvzbB2bACn2",
+      "serviceId": "hobby"
+    },
+    "web": {
+      "configuration": {
+        "name": "recall-ai-chat"
+      },
+      "createdAt": "2026-09-17T17:01:39.861Z",
+      "lastRevealedAt": "2026-09-17T17:01:40.205Z",
+      "lastStatus": "complete",
+      "name": "web",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VQ6eAxcfYc919Pb16VQ6DtKyA85BHiwKvzbB2bADGK",
+      "serviceId": "project"
     }
   }
 }

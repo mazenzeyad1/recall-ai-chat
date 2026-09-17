@@ -11,6 +11,21 @@ history between the two threads.
 Every service behind it was provisioned with the
 [Stripe Projects](https://docs.stripe.com/projects) CLI.
 
+**Live:** https://recall-ai-chat.vercel.app
+
+### Try it without signing up
+
+The Supabase project has email confirmation switched on, so a fresh signup
+needs a link from your inbox. To skip that, there is a shared demo account:
+
+```
+demo@example.com / recall-demo-2026
+```
+
+It is deliberately public and shared — anything you tell it is visible to
+anyone else using the same account, so don't put real personal details in it.
+Create your own account if you want private memory.
+
 ## Stack
 
 | Layer | Service | Why |
@@ -81,9 +96,9 @@ confirmation link before it can sign in. To make demos instant, turn off
 **Confirm email** under Authentication → Providers → Email in the Supabase
 dashboard (`stripe projects open supabase`).
 
-For local testing without touching that setting,
-`scripts/seed-test-user.mjs` writes a pre-confirmed account straight into the
-auth schema, so no mail is ever sent:
+For local testing without touching that setting — and to create the shared
+demo account above — `scripts/seed-test-user.mjs` writes a pre-confirmed
+account straight into the auth schema, so no mail is ever sent:
 
 ```bash
 node scripts/seed-test-user.mjs you@example.com your-password

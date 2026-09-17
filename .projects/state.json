@@ -6,6 +6,9 @@
     },
     "supabase": {
       "name": "Supabase"
+    },
+    "vercel": {
+      "name": "Vercel"
     }
   },
   "resources": {
@@ -28,6 +31,16 @@
       "name": "supabase-plan",
       "providerName": "Supabase",
       "serviceId": "free"
+    },
+    "vercel-plan": {
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    },
+    "web": {
+      "name": "web",
+      "providerName": "Vercel",
+      "serviceId": "project"
     }
   }
 }
